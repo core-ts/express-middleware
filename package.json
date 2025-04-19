@@ -1,0 +1,32 @@
+{
+  "name": "express-middleware",
+  "version": "0.0.1",
+  "description": "express-middleware",
+  "main": "./lib/index.js",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build:lib": "tsc",
+    "clean:lib": "rimraf lib"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "tslint": "5.10.0",
+    "typescript": "^3.3.3333"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/core-ts/express-middleware"
+  },
+  "keywords": [
+    "express",
+    "express-middleware",
+    "express middleware",
+    "middleware"
+  ]
+}
